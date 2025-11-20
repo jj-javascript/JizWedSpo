@@ -1,3 +1,7 @@
+/* *{
+  color: red !important;
+} */
+
 
 
 @media screen and (max-width: 767px) {
@@ -39,7 +43,7 @@
   }
   .flipTimebox .flip-clock-wrapper ul {
     width: 37px;
-    margin: 2px;
+    /* margin: 2px; */
   }
   .flipTimebox .flip-clock-wrapper ul li a div div.inn {
     font-size: 38px;
@@ -48,7 +52,7 @@
     font-size: 20px !important;
   }
 }
-@media screen and (max-width: 568px) {
+/* @media screen and (max-width: 568px) {
   .flipTimebox .flip-clock-wrapper ul {
     margin: 2px;
   }
@@ -75,7 +79,7 @@
   .flipTimebox .flip-clock-meridium {
     font-size: 18px !important;
   }
-}
+} */
 @media screen and (max-width: 480px) {
   .flipTimemodulesboxes {
     padding: 0;
@@ -179,12 +183,16 @@
   }
 }
 
-.flip-clock-wrapper {
-  margin: 4em !important;
+.flipTimebox .flip-clock-wrapper ul li .flip-clock-dot  {
+  color: red !important;
 }
 
+/* .flip-clock-wrapper {
+  margin: 4em !important;
+} */
+
 .flip-clock-divider .flip-clock-label {
-  color: white !important;
+  color: burlywood !important;
   font-size: 14px !important;
   font-weight: bold !important;
   font-family: Sofia Sans Condensed !important; 
